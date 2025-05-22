@@ -1,2 +1,32 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* Used fr unit here because to make it responsive */
+.layout {
+  display: grid;
+  grid-template-rows: 1fr 7fr 1fr;
+  grid-template-columns: 1fr 5fr;
+  height: 100vw;
+}
+.navbar {
+  border: 2px solid black;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: honeydew;
+}
+.footer {
+  border: 2px solid black;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: hotpink;
+}
+.main-content {
+  border: 2px solid black;
+  background-color: indianred;
+}
+.sidebar {
+  border: 2px solid black;
+  background-color: indigo;
+}
